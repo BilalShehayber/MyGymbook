@@ -10,9 +10,10 @@
 		9C1EFE051EE334F100C374A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EFE041EE334F100C374A2 /* AppDelegate.swift */; };
 		9C1EFE071EE334F100C374A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EFE061EE334F100C374A2 /* ViewController.swift */; };
 		9C1EFE0A1EE334F100C374A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EFE081EE334F100C374A2 /* Main.storyboard */; };
-		9C1EFE0C1EE334F100C374A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EFE0B1EE334F100C374A2 /* Assets.xcassets */; };
 		9C1EFE0F1EE334F100C374A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EFE0D1EE334F100C374A2 /* LaunchScreen.storyboard */; };
 		9C1EFE1A1EE334F100C374A2 /* MyGymBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EFE191EE334F100C374A2 /* MyGymBookTests.swift */; };
+		9C1EFE251EE34CBA00C374A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EFE241EE34CBA00C374A2 /* Images.xcassets */; };
+		9CB99DF01EE3555D003925AF /* barbell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CB99DEF1EE3555D003925AF /* barbell.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +31,13 @@
 		9C1EFE041EE334F100C374A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C1EFE061EE334F100C374A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C1EFE091EE334F100C374A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C1EFE0B1EE334F100C374A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C1EFE0E1EE334F100C374A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C1EFE101EE334F100C374A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1EFE151EE334F100C374A2 /* MyGymBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGymBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1EFE191EE334F100C374A2 /* MyGymBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGymBookTests.swift; sourceTree = "<group>"; };
 		9C1EFE1B1EE334F100C374A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1EFE241EE34CBA00C374A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CB99DEF1EE3555D003925AF /* barbell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = barbell.jpg; path = ../../../BIO/barbell.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 				9C1EFE041EE334F100C374A2 /* AppDelegate.swift */,
 				9C1EFE061EE334F100C374A2 /* ViewController.swift */,
 				9C1EFE081EE334F100C374A2 /* Main.storyboard */,
-				9C1EFE0B1EE334F100C374A2 /* Assets.xcassets */,
+				9CB99DEF1EE3555D003925AF /* barbell.jpg */,
+				9C1EFE241EE34CBA00C374A2 /* Images.xcassets */,
 				9C1EFE0D1EE334F100C374A2 /* LaunchScreen.storyboard */,
 				9C1EFE101EE334F100C374A2 /* Info.plist */,
 			);
@@ -146,6 +149,7 @@
 				TargetAttributes = {
 					9C1EFE001EE334F100C374A2 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8N7UD6Q496;
 						ProvisioningStyle = Automatic;
 					};
 					9C1EFE141EE334F100C374A2 = {
@@ -179,8 +183,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1EFE251EE34CBA00C374A2 /* Images.xcassets in Resources */,
 				9C1EFE0F1EE334F100C374A2 /* LaunchScreen.storyboard in Resources */,
-				9C1EFE0C1EE334F100C374A2 /* Assets.xcassets in Resources */,
+				9CB99DF01EE3555D003925AF /* barbell.jpg in Resources */,
 				9C1EFE0A1EE334F100C374A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,11 +346,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N7UD6Q496;
 				INFOPLIST_FILE = MyGymBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Bilal.MyGymBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,11 +361,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N7UD6Q496;
 				INFOPLIST_FILE = MyGymBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Bilal.MyGymBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -408,6 +419,7 @@
 				9C1EFE201EE334F100C374A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C1EFE211EE334F100C374A2 /* Build configuration list for PBXNativeTarget "MyGymBookTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +428,7 @@
 				9C1EFE231EE334F100C374A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
